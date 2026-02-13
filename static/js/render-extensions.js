@@ -3,7 +3,7 @@
  * Estrategia: Interceptar displaySingleResults y agregar canvas dinámicamente
  */
 
-(function () {
+document.addEventListener("DOMContentLoaded", () => {
     // Guardar referencia a displaySingleResults original
     const originalDisplaySingleResults = window.displaySingleResults;
 
@@ -1260,4 +1260,4 @@
             }, 50);
         }
     }
-})();
+});

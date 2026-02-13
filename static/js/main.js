@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update UI buttons
             modeBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
+
             // Show relevant form
             currentMode = btn.dataset.mode;
             inputModes.forEach(mode => {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         genomePreset.addEventListener('change', (e) => {
             const val = e.target.value;
             const customInput = document.getElementById('genome-id');
-            
+
             if (val === 'custom') {
                 customGenomeGroup.style.display = 'block';
                 customInput.value = '';
@@ -88,15 +88,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // Determine API endpoint based on ID (simple heuristic or always same)
-                const endpoint = '/analyze'; // Adjust if backend differentiates
-                
+                const endpoint = '/api/analyze'; // Adjust if backend differentiates
+
                 const formData = new FormData();
-                formData.append('genome_id', genomeId);
-                formData.append('include_ai', includeAI);
+                formData.append('genome_id', genomeId); // Sending regular form data, but backend expects JSON? Let's check.
+                // Wait, the backend code shows request.get_json(), so we must send JSON.
 
                 const response = await fetch(endpoint, {
                     method: 'POST',
-                    body: formData
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        genome_id: genomeId,
+                        include_ai: includeAI
+                    })
                 });
 
                 const data = await response.json();
@@ -139,14 +145,16 @@ document.addEventListener('DOMContentLoaded', () => {
             resultsContainer.classList.add('hidden');
 
             try {
-                const formData = new FormData();
-                formData.append('genome1_id', id1);
-                formData.append('genome2_id', id2);
-                formData.append('include_ai', includeAI);
-
-                const response = await fetch('/compare', {
+                const response = await fetch('/api/compare', {
                     method: 'POST',
-                    body: formData
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        genome1_id: id1,
+                        genome2_id: id2,
+                        include_ai: includeAI
+                    })
                 });
 
                 const data = await response.json();
@@ -186,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Helper: Display Single Results
-    window.displaySingleResults = function(data, aiRequested) {
+    window.displaySingleResults = function (data, aiRequested) {
         // Build Tabs UI
         let html = `
             <div class="result-card analysis-section">
@@ -228,10 +236,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         `;
-        
+
         resultsContainer.innerHTML = html;
         resultsContainer.classList.remove('hidden');
-        
+
         // This is where render-extensions.js usually hooks in
     };
 
@@ -316,8 +324,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderAIContent(aiText) {
         if (!aiText) return '<p>No se solicitó interpretación de IA.</p>';
+
+        // Handle if aiText is an object (e.g. error received from backend)
+        let textContent = aiText;
+        if (typeof aiText === 'object') {
+            if (aiText.error) {
+                textContent = `**Error:** ${aiText.error}`;
+            } else {
+                textContent = JSON.stringify(aiText, null, 2);
+            }
+        }
+
         // Simple markdown parsing fallback if library not loaded
-        const parsed = window.marked ? window.marked.parse(aiText) : aiText.replace(/\n/g, '<br>');
+        // Ensure textContent is a string before calling replace
+        textContent = String(textContent);
+
+        const parsed = window.marked ? window.marked.parse(textContent) : textContent.replace(/\n/g, '<br>');
         return `
             <div class="ai-message">
                 <div class="ai-header">
@@ -335,7 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Global Tab Switcher
-    window.showTab = function(tabId) {
+    window.showTab = function (tabId) {
         // Toggle buttons
         document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
         const activeBtn = document.querySelector(`button[onclick="showTab('${tabId}')"]`);
@@ -345,12 +367,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
         const activeContent = document.getElementById(tabId);
         if (activeContent) activeContent.classList.add('active');
-        
+
         // Dispatch event for canvas redrawing hook in extensions
-        if(window.switchTab) {
-             // Mock event if needed or just call logic
-             const event = new Event('tabSwitch');
-             // The extension overwrites switchTab, so this mimics the call if logic was inside
+        if (window.switchTab) {
+            // Mock event if needed or just call logic
+            const event = new Event('tabSwitch');
+            // The extension overwrites switchTab, so this mimics the call if logic was inside
         }
     };
 });
