@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Conceptual — Biología Celular y Molecular</title>
+    <style>
+      html, body { background-color: #0b1020; margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
+    </style>
+    <script type="module" crossorigin src="{{ url_for('static', filename='mapas/' + mapas_js) if mapas_js else '/static/mapas/assets/index-BeEqgUcO.js' }}"></script>
+    {% for css in mapas_css %}
+    <link rel="stylesheet" crossorigin href="{{ url_for('static', filename='mapas/' + css) }}">
+    {% endfor %}
+    {% if not mapas_css %}
+    <link rel="stylesheet" crossorigin href="/static/mapas/assets/index-CRLC0MkR.css">
+    {% endif %}
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

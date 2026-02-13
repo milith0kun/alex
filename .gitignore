@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Flask/Environment
+.env
+.flaskenv
+
+# Temporary files
+tmp*
+tmp_*
+
+# PDFs generated
+pdfs/*.pdf
+
+# Node/Vite (if applicable)
+node_modules/
+dist/
+.vite/
+
+# IDEs
+.vscode/
+.idea/
+.trae/

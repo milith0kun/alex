@@ -1,0 +1,1296 @@
+{
+    "categories": [
+        {
+            "color": "#10b981",
+            "icon": "🧫",
+            "id": "fundamentos",
+            "name": "Fundamentos Celulares"
+        },
+        {
+            "color": "#3b82f6",
+            "icon": "🧬",
+            "id": "material-genetico",
+            "name": "Material Genético y Herencia"
+        },
+        {
+            "color": "#8b5cf6",
+            "icon": "➡️",
+            "id": "flujo-informacion",
+            "name": "Flujo de Información Genética"
+        },
+        {
+            "color": "#f59e0b",
+            "icon": "⚙️",
+            "id": "traduccion-proteinas",
+            "name": "Traducción y Proteínas"
+        },
+        {
+            "color": "#ef4444",
+            "icon": "🔬",
+            "id": "tecnicas",
+            "name": "Técnicas Experimentales"
+        },
+        {
+            "color": "#14b8a6",
+            "icon": "🌿",
+            "id": "evolucion",
+            "name": "Variación y Evolución"
+        },
+        {
+            "color": "#6366f1",
+            "icon": "💻",
+            "id": "bioinformatica",
+            "name": "Bioinformática"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "celula",
+            "title": "Célula",
+            "summary": "Unidad básica de vida que permite metabolismo, replicación y respuesta al entorno.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 461.9728489483207,
+                "y": -46.342282444912755
+            },
+            "memoryHint": "Imagina la célula como una ciudad completa."
+        },
+        {
+            "id": "teoria-celular",
+            "title": "Teoría Celular",
+            "summary": "Los organismos están formados por células, la unidad fundamental de vida.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 47.01578124620098,
+                "y": 323.50132496163167
+            },
+            "memoryHint": "La ley que dice que todas las ciudades están hechas de células."
+        },
+        {
+            "id": "ciclo-vida",
+            "title": "Ciclo de Vida Celular",
+            "summary": "Secuencia de crecimiento, replicación/división y muerte regulada bioquímicamente.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 301.1708835540976,
+                "y": 321.67750670676895
+            },
+            "memoryHint": "El ciclo de crecimiento y división de la ciudad."
+        },
+        {
+            "id": "via-metabolica",
+            "title": "Vía Metabólica / Pathway",
+            "summary": "Red de reacciones químicas catalizadas que coordinan procesos celulares.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 540.8943770074815,
+                "y": 324.7189981743806
+            },
+            "memoryHint": "Las carreteras y fábricas que producen energía."
+        },
+        {
+            "id": "eucariota",
+            "title": "Célula Eucariota",
+            "summary": "Célula con núcleo; genes con exones e intrones y procesamiento de ARN.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 672.4768110560807,
+                "y": 1021.4113801505071
+            },
+            "memoryHint": "Ciudad con edificio central (núcleo, tipo capital moderna)."
+        },
+        {
+            "id": "procariota",
+            "title": "Célula Procariota",
+            "summary": "Célula sin núcleo; genes continuos; transcripción y traducción en el mismo compartimento.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 814.5195555384397,
+                "y": 328.4529656720262
+            },
+            "memoryHint": "Ciudad pequeña sin edificio central."
+        },
+        {
+            "id": "proteina",
+            "title": "Proteína",
+            "summary": "Macromolécula de aminoácidos que ejecuta funciones celulares: catálisis, estructura, señalización.",
+            "categoryId": "fundamentos",
+            "position": {
+                "x": 2658.1989392997302,
+                "y": 1726.6200681714618
+            },
+            "memoryHint": "Máquina final ensamblada (los trabajadores de la ciudad)."
+        },
+        {
+            "id": "adn",
+            "title": "ADN",
+            "summary": "Polímero de nucleótidos (A, T, G, C) bicatenario y estable; almacena información hereditaria.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 1664.5784495477035,
+                "y": 101.5755193059143
+            },
+            "memoryHint": "La gran biblioteca de la ciudad. Contiene planos y reglas."
+        },
+        {
+            "id": "arn",
+            "title": "ARN",
+            "summary": "Polímero de nucleótidos (A, U, G, C) monocatenario; transfiere y procesa información genética.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 1079.2892203301442,
+                "y": 324.2380470396038
+            }
+        },
+        {
+            "id": "cromosoma",
+            "title": "Cromosoma",
+            "summary": "Estructura que empaqueta ADN y proteínas; contiene genes.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 3285.155729223977,
+                "y": 466.6545590588859
+            },
+            "memoryHint": "Un estante grande donde se organizan los libros."
+        },
+        {
+            "id": "gen",
+            "title": "Gen",
+            "summary": "Segmento de ADN con información para producir un producto funcional (ARN o proteína).",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 1949.6775264941982,
+                "y": 607.6093745758235
+            },
+            "memoryHint": "Un libro específico con instrucciones para construir algo."
+        },
+        {
+            "id": "nucleotido",
+            "title": "Nucleótido",
+            "summary": "Unidad básica de ADN/ARN: base nitrogenada + azúcar + grupo fosfato.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 1081.0647996744412,
+                "y": 466.355060170095
+            },
+            "memoryHint": "Las letras con las que están escritos los libros."
+        },
+        {
+            "id": "bases-nitrogenadas",
+            "title": "Bases Nitrogenadas",
+            "summary": "A (adenina), T (timina/ADN), U (uracilo/ARN), G (guanina), C (citosina).",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 1091.981955394641,
+                "y": 600.7153092175179
+            },
+            "memoryHint": "Las letras del alfabeto (A, T, C, G)."
+        },
+        {
+            "id": "doble-helice",
+            "title": "Doble Hélice",
+            "summary": "Estructura del ADN: dos hebras antiparalelas unidas por puentes de hidrógeno.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2106.2142940968147,
+                "y": 461.5544122955059
+            },
+            "memoryHint": "El formato en que están encuadernados los libros."
+        },
+        {
+            "id": "complementariedad",
+            "title": "Complementariedad de Bases",
+            "summary": "Emparejamiento específico A–T (A–U en ARN) y C–G; clave para replicación.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2536.224525103514,
+                "y": 600.2399601541414
+            },
+            "memoryHint": "Regla de lectura: A con T, C con G."
+        },
+        {
+            "id": "chargaff",
+            "title": "Regla de Chargaff",
+            "summary": "En ADN bicatenario, la cantidad de A≈T y G≈C.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2272.2593297855624,
+                "y": 747.4511577152093
+            },
+            "memoryHint": "Estadística que confirma esa regla."
+        },
+        {
+            "id": "replicacion",
+            "title": "Replicación del ADN",
+            "summary": "Copia del ADN donde cada hebra sirve como molde para sintetizar su complementaria.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2461.6327123602914,
+                "y": 461.0851189510247
+            },
+            "memoryHint": "Fotocopiadora gigante que duplica toda la biblioteca."
+        },
+        {
+            "id": "herencia-mendeliana",
+            "title": "Herencia Mendeliana",
+            "summary": "Transmisión de rasgos mediante genes que segregan y se combinan en la descendencia.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 1614.3433760826267,
+                "y": 744.6990821863563
+            },
+            "memoryHint": "Cómo los libros se pasan a la ciudad hija."
+        },
+        {
+            "id": "mutacion",
+            "title": "Mutación",
+            "summary": "Cambio en la secuencia de ADN que puede alterar un rasgo o función biológica.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2751.4328754833086,
+                "y": 1864.751643664145
+            },
+            "memoryHint": "Error de imprenta en un libro."
+        },
+        {
+            "id": "ligamiento",
+            "title": "Ligamiento Genético",
+            "summary": "Genes cercanos en un cromosoma tienden a heredarse juntos.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 3321.9979147557287,
+                "y": 609.0976251166514
+            },
+            "memoryHint": "Libros que están pegados en el mismo estante."
+        },
+        {
+            "id": "mapa-genetico",
+            "title": "Mapa Genético",
+            "summary": "Ordenamiento relativo de genes estimado por frecuencias de recombinación.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2959.693184721467,
+                "y": 617.9345691474136
+            },
+            "memoryHint": "El mapa de la biblioteca central."
+        },
+        {
+            "id": "un-gen-una-proteina",
+            "title": "Un Gen–Una Proteína",
+            "summary": "Hipótesis histórica: cada gen produce una proteína; hoy ampliada.",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2018.32184990544,
+                "y": 749.2411738577848
+            }
+        },
+        {
+            "id": "alfabeto-molecular",
+            "title": "Alfabeto Molecular",
+            "summary": "Representación de macromoléculas como cadenas de letras (4 para ADN/ARN, 20 para proteínas).",
+            "categoryId": "material-genetico",
+            "position": {
+                "x": 2496.788458240709,
+                "y": 1869.6243280275874
+            },
+            "memoryHint": "El idioma en que están escritos todos los libros."
+        },
+        {
+            "id": "dogma-central",
+            "title": "Dogma Central",
+            "summary": "Flujo principal de información genética: ADN → ARN → Proteína.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 4166.684194457418,
+                "y": 600.5130033617277
+            },
+            "memoryHint": "Flujo de información: Biblioteca → Copia → Fábrica."
+        },
+        {
+            "id": "transcripcion",
+            "title": "Transcripción",
+            "summary": "Síntesis de ARN a partir de un molde de ADN; copia información de un gen.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 3188.9905864119623,
+                "y": 749.6788361066119
+            },
+            "memoryHint": "Sacar una copia de un libro."
+        },
+        {
+            "id": "arn-polimerasa",
+            "title": "ARN Polimerasa",
+            "summary": "Enzima que cataliza la transcripción agregando ribonucleótidos complementarios.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 2388.7288055700337,
+                "y": 882.0299596320201
+            },
+            "memoryHint": "El copista de la biblioteca."
+        },
+        {
+            "id": "arnm",
+            "title": "ARN Mensajero (ARNm)",
+            "summary": "ARN que porta la información codificante de un gen hacia el ribosoma.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 3856.481857364321,
+                "y": 880.6536770472003
+            },
+            "memoryHint": "La copia portátil del libro."
+        },
+        {
+            "id": "exon",
+            "title": "Exón",
+            "summary": "Segmento de gen eucariota que permanece en el ARNm maduro y codifica.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 1086.111354714208,
+                "y": 1163.4299114660503
+            },
+            "memoryHint": "Las partes útiles del libro."
+        },
+        {
+            "id": "intron",
+            "title": "Intrón",
+            "summary": "Segmento interveniente eliminado durante el splicing.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 1609.6138503233733,
+                "y": 1167.53852135807
+            },
+            "memoryHint": "Las partes que se eliminan."
+        },
+        {
+            "id": "splicing",
+            "title": "Splicing (Empalme)",
+            "summary": "Eliminación de intrones y unión de exones para generar ARNm funcional.",
+            "categoryId": "flujo-informacion",
+            "position": {
+                "x": 3726.2898060938014,
+                "y": 1027.3554191023527
+            },
+            "memoryHint": "El editor que corta lo innecesario."
+        },
+        {
+            "id": "traduccion",
+            "title": "Traducción",
+            "summary": "El ribosoma lee codones del ARNm y ensambla una proteína.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4038.8540842041216,
+                "y": 1029.4218435985945
+            },
+            "memoryHint": "Proceso de fabricación de máquinas."
+        },
+        {
+            "id": "ribosoma",
+            "title": "Ribosoma",
+            "summary": "Complejo de ARN + proteínas que cataliza la traducción.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 3968.984478502316,
+                "y": 1161.8644382377727
+            },
+            "memoryHint": "La fábrica central de la ciudad."
+        },
+        {
+            "id": "aminoacido",
+            "title": "Aminoácido",
+            "summary": "Monómero de proteínas; 20 tipos estándar.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4089.6200697867216,
+                "y": 1449.099321173274
+            },
+            "memoryHint": "Pieza individual de construcción."
+        },
+        {
+            "id": "polipeptido",
+            "title": "Polipéptido",
+            "summary": "Cadena lineal de aminoácidos; se pliega en proteína funcional.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4095.7791738254614,
+                "y": 1589.4052296353054
+            },
+            "memoryHint": "Cadena de piezas ensambladas."
+        },
+        {
+            "id": "codon",
+            "title": "Codón",
+            "summary": "Triplete de nucleótidos en ARNm que especifica un aminoácido.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4619.716543013924,
+                "y": 1024.0357766038487
+            },
+            "memoryHint": "Instrucción de 3 letras en el manual."
+        },
+        {
+            "id": "codigo-genetico",
+            "title": "Código Genético",
+            "summary": "Correspondencia entre codones y aminoácidos.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4359.941926458165,
+                "y": 1169.9600799414966
+            },
+            "memoryHint": "Diccionario que traduce letras a piezas."
+        },
+        {
+            "id": "degeneracion",
+            "title": "Degeneración del Código",
+            "summary": "Múltiples codones pueden codificar el mismo aminoácido.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4360.421478086322,
+                "y": 1308.224286724456
+            },
+            "memoryHint": "Diferentes palabras que significan lo mismo."
+        },
+        {
+            "id": "codon-inicio",
+            "title": "Codón de Inicio",
+            "summary": "AUG (Metionina): señal que inicia la traducción.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4619.661174544374,
+                "y": 1168.6083211960456
+            },
+            "memoryHint": "Señal de “empezar producción”."
+        },
+        {
+            "id": "codon-stop",
+            "title": "Codón de Terminación",
+            "summary": "UAA, UAG o UGA: señal que detiene la traducción.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 4870.6402294061645,
+                "y": 1162.5407215805114
+            },
+            "memoryHint": "Señal de “terminar producción”."
+        },
+        {
+            "id": "arnt",
+            "title": "ARNt (Transferencia)",
+            "summary": "ARN adaptador que transporta aminoácidos y reconoce codones.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 3979.2303823019283,
+                "y": 1300.6143795496287
+            },
+            "memoryHint": "Camión que trae piezas a la fábrica."
+        },
+        {
+            "id": "anticodon",
+            "title": "Anticodón",
+            "summary": "Triplete en ARNt complementario al codón del ARNm.",
+            "categoryId": "traduccion-proteinas",
+            "position": {
+                "x": 3843.601131218994,
+                "y": 1444.4721880527263
+            },
+            "memoryHint": "Código del camión que coincide con la orden."
+        },
+        {
+            "id": "pcr",
+            "title": "PCR",
+            "summary": "Amplificación exponencial de un fragmento de ADN mediante ciclos térmicos.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 1779.1361470486722,
+                "y": 13.35706832363725
+            },
+            "memoryHint": "Máquina de hacer miles de copias de un libro."
+        },
+        {
+            "id": "cebador",
+            "title": "Cebador / Primer",
+            "summary": "Oligonucleótido corto que se aparea con el molde e inicia la síntesis.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 1408.8463174355338,
+                "y": 327.17228978084296
+            },
+            "memoryHint": "Marcador que indica qué copiar."
+        },
+        {
+            "id": "desnaturalizacion",
+            "title": "Desnaturalización (PCR)",
+            "summary": "Separación de hebras de ADN por calentamiento.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 1653.7233634108798,
+                "y": 324.14628307308953
+            },
+            "memoryHint": "Abrir el libro para leerlo."
+        },
+        {
+            "id": "alineamiento-pcr",
+            "title": "Alineamiento (PCR)",
+            "summary": "Unión de cebadores a secuencias complementarias al enfriar.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 1899.9955930622518,
+                "y": 324.3381339280768
+            },
+            "memoryHint": "Colocar el marcador."
+        },
+        {
+            "id": "extension",
+            "title": "Extensión (PCR)",
+            "summary": "Síntesis de nuevas hebras por ADN polimerasa desde cebadores.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 2153.811945960786,
+                "y": 320.1516185795766
+            },
+            "memoryHint": "Copiar el contenido del libro."
+        },
+        {
+            "id": "clonacion",
+            "title": "Clonación Molecular",
+            "summary": "Inserción de ADN en un vector replicable para producir copias.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 3109.6400787558564,
+                "y": 181.21480424303306
+            },
+            "memoryHint": "Hacer copias permanentes de un libro."
+        },
+        {
+            "id": "vector",
+            "title": "Vector de Clonación",
+            "summary": "Molécula de ADN (plásmido/virus) que replica y transporta un inserto.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 2400.1164474115094,
+                "y": 322.9858147461235
+            },
+            "memoryHint": "Camión que transporta el libro al laboratorio."
+        },
+        {
+            "id": "biblioteca",
+            "title": "Biblioteca de Clones",
+            "summary": "Colección de clones representando fragmentos de un genoma.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 2657.0059854507736,
+                "y": 323.13065385217453
+            },
+            "memoryHint": "Archivo lleno de copias."
+        },
+        {
+            "id": "enzima-restriccion",
+            "title": "Enzima de Restricción",
+            "summary": "Proteína que corta ADN en secuencias específicas.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4167.287089374218,
+                "y": 183.65287579100217
+            },
+            "memoryHint": "Tijeras especiales para libros."
+        },
+        {
+            "id": "sitio-reconocimiento",
+            "title": "Sitio de Reconocimiento",
+            "summary": "Secuencia palindrómica donde la enzima se une y corta.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 3789.929014429745,
+                "y": 323.5498222918651
+            },
+            "memoryHint": "Lugar exacto donde cortar el libro."
+        },
+        {
+            "id": "extremos-romos",
+            "title": "Extremos Romos",
+            "summary": "Corte que deja extremos sin salientes monocatenarios.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4039.1411981117185,
+                "y": 328.1742606038378
+            }
+        },
+        {
+            "id": "extremos-pegajosos",
+            "title": "Extremos Pegajosos",
+            "summary": "Extremos con salientes complementarios que facilitan unión.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4288.5291959459655,
+                "y": 325.3961329765101
+            },
+            "memoryHint": "Bordes que encajan perfectamente."
+        },
+        {
+            "id": "hibridacion",
+            "title": "Hibridación",
+            "summary": "Unión de hebras complementarias por apareamiento de bases.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4458.02272764266,
+                "y": 461.9041508365282
+            }
+        },
+        {
+            "id": "ligacion",
+            "title": "Ligación",
+            "summary": "Formación de enlaces covalentes para unir fragmentos de ADN.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 3112.8779127214384,
+                "y": 49.460937804734044
+            },
+            "memoryHint": "Pegamento molecular para planos."
+        },
+        {
+            "id": "electroforesis",
+            "title": "Electroforesis en Gel",
+            "summary": "Separación de fragmentos de ADN por tamaño en gel.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4437.63982765407,
+                "y": 189.08847795744148
+            },
+            "memoryHint": "Separador de fragmentos por tamaño."
+        },
+        {
+            "id": "sonda",
+            "title": "Sonda (Probe)",
+            "summary": "Oligonucleótido marcado que detecta secuencia complementaria.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4584.61693748616,
+                "y": 321.58319917003604
+            },
+            "memoryHint": "Detector que busca una frase específica."
+        },
+        {
+            "id": "microarreglo",
+            "title": "Microarreglo / DNA Array",
+            "summary": "Superficie con sondas para detectar expresión génica.",
+            "categoryId": "tecnicas",
+            "position": {
+                "x": 4700.78598882313,
+                "y": 189.4125988843495
+            },
+            "memoryHint": "Panel gigante que revisa muchos genes a la vez."
+        },
+        {
+            "id": "variacion-genetica",
+            "title": "Variación Genética",
+            "summary": "Diferencias de secuencia entre individuos que sustentan diversidad.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 2746.0192834433415,
+                "y": 2001.730265193232
+            },
+            "memoryHint": "Diferencias entre distintas ciudades."
+        },
+        {
+            "id": "genoma-referencia",
+            "title": "Genoma de Referencia",
+            "summary": "Secuencia representativa usada como patrón para una especie.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 1132.3786580978895,
+                "y": 2149.92435777249
+            },
+            "memoryHint": "Ciudad modelo para comparar."
+        },
+        {
+            "id": "conservacion-genetica",
+            "title": "Conservación Genética",
+            "summary": "Genes similares entre especies indican origen común.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 1237.982406084666,
+                "y": 2000.2354307315607
+            },
+            "memoryHint": "Ciudades que comparten planos antiguos."
+        },
+        {
+            "id": "evolucion-proc",
+            "title": "Evolución",
+            "summary": "Cambio heredable en poblaciones reflejado en variaciones genómicas.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 2494.6853310719653,
+                "y": 2142.7887028615114
+            }
+        },
+        {
+            "id": "seleccion-natural",
+            "title": "Selección Natural",
+            "summary": "Variantes que mejoran éxito reproductivo aumentan su frecuencia.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 2482.4947840156733,
+                "y": 2286.5096445936315
+            },
+            "memoryHint": "Solo sobreviven las mejores ciudades."
+        },
+        {
+            "id": "adaptacion",
+            "title": "Adaptación",
+            "summary": "Incremento de rasgos heredables que mejoran ajuste al ambiente.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 2487.410040441573,
+                "y": 2428.4740081103123
+            },
+            "memoryHint": "Mejoras útiles para la ciudad."
+        },
+        {
+            "id": "especiacion",
+            "title": "Especiación",
+            "summary": "Formación de nuevas especies cuando poblaciones divergen.",
+            "categoryId": "evolucion",
+            "position": {
+                "x": 2733.254268036733,
+                "y": 2282.0381652894
+            },
+            "memoryHint": "Se forma una nueva ciudad distinta."
+        },
+        {
+            "id": "genomica-comparativa",
+            "title": "Genómica Comparativa",
+            "summary": "Comparación de genomas para identificar similitudes y relaciones evolutivas.",
+            "categoryId": "bioinformatica",
+            "position": {
+                "x": 1246.6044991523995,
+                "y": 1861.7744427542789
+            },
+            "memoryHint": "Comparar planos entre ciudades."
+        },
+        {
+            "id": "alineamiento-secuencias",
+            "title": "Alineamiento de Secuencias",
+            "summary": "Método computacional para comparar secuencias y localizar homologías.",
+            "categoryId": "bioinformatica",
+            "position": {
+                "x": 1484.3852727890626,
+                "y": 1863.702396593379
+            },
+            "memoryHint": "Superponer libros para ver diferencias."
+        },
+        {
+            "id": "blast",
+            "title": "BLAST",
+            "summary": "Algoritmos rápidos para buscar similitudes entre secuencias.",
+            "categoryId": "bioinformatica",
+            "position": {
+                "x": 1552.8815727565336,
+                "y": 2004.217985751022
+            },
+            "memoryHint": "Buscador rápido de coincidencias en libros."
+        },
+        {
+            "id": "bioinformatica-disc",
+            "title": "Bioinformática",
+            "summary": "Disciplina que usa algoritmos para analizar datos biológicos.",
+            "categoryId": "bioinformatica",
+            "position": {
+                "x": 1556.111062437512,
+                "y": 1720.53609348778
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "source": "celula",
+            "target": "teoria-celular",
+            "label": "fundamentada por"
+        },
+        {
+            "id": "e2",
+            "source": "celula",
+            "target": "ciclo-vida",
+            "label": "atraviesa"
+        },
+        {
+            "id": "e3",
+            "source": "celula",
+            "target": "via-metabolica",
+            "label": "regulada por"
+        },
+        {
+            "id": "e4",
+            "source": "celula",
+            "target": "eucariota",
+            "label": "tipo"
+        },
+        {
+            "id": "e5",
+            "source": "celula",
+            "target": "procariota",
+            "label": "tipo"
+        },
+        {
+            "id": "e6",
+            "source": "celula",
+            "target": "proteina",
+            "label": "contiene"
+        },
+        {
+            "id": "e7",
+            "source": "celula",
+            "target": "adn",
+            "label": "contiene"
+        },
+        {
+            "id": "e8",
+            "source": "celula",
+            "target": "arn",
+            "label": "contiene"
+        },
+        {
+            "id": "e9",
+            "source": "adn",
+            "target": "nucleotido",
+            "label": "compuesto por"
+        },
+        {
+            "id": "e10",
+            "source": "arn",
+            "target": "nucleotido",
+            "label": "compuesto por"
+        },
+        {
+            "id": "e11",
+            "source": "nucleotido",
+            "target": "bases-nitrogenadas",
+            "label": "contiene"
+        },
+        {
+            "id": "e12",
+            "source": "adn",
+            "target": "doble-helice",
+            "label": "estructura"
+        },
+        {
+            "id": "e13",
+            "source": "doble-helice",
+            "target": "complementariedad",
+            "label": "basada en"
+        },
+        {
+            "id": "e14",
+            "source": "complementariedad",
+            "target": "chargaff",
+            "label": "confirmada por"
+        },
+        {
+            "id": "e15",
+            "source": "adn",
+            "target": "replicacion",
+            "label": "se duplica por"
+        },
+        {
+            "id": "e16",
+            "source": "replicacion",
+            "target": "complementariedad",
+            "label": "depende de"
+        },
+        {
+            "id": "e17",
+            "source": "adn",
+            "target": "cromosoma",
+            "label": "empaquetado en"
+        },
+        {
+            "id": "e18",
+            "source": "cromosoma",
+            "target": "gen",
+            "label": "contiene"
+        },
+        {
+            "id": "e19",
+            "source": "gen",
+            "target": "herencia-mendeliana",
+            "label": "transmitido por"
+        },
+        {
+            "id": "e20",
+            "source": "gen",
+            "target": "mutacion",
+            "label": "puede sufrir"
+        },
+        {
+            "id": "e21",
+            "source": "gen",
+            "target": "un-gen-una-proteina",
+            "label": "hipótesis"
+        },
+        {
+            "id": "e22",
+            "source": "cromosoma",
+            "target": "ligamiento",
+            "label": "explica"
+        },
+        {
+            "id": "e23",
+            "source": "ligamiento",
+            "target": "mapa-genetico",
+            "label": "permite construir"
+        },
+        {
+            "id": "e24",
+            "source": "adn",
+            "target": "alfabeto-molecular",
+            "label": "representado como"
+        },
+        {
+            "id": "e25",
+            "source": "arn",
+            "target": "alfabeto-molecular",
+            "label": "representado como"
+        },
+        {
+            "id": "e26",
+            "source": "proteina",
+            "target": "alfabeto-molecular",
+            "label": "representada como"
+        },
+        {
+            "id": "e27",
+            "source": "dogma-central",
+            "target": "transcripcion",
+            "label": "paso 1"
+        },
+        {
+            "id": "e28",
+            "source": "dogma-central",
+            "target": "traduccion",
+            "label": "paso 2"
+        },
+        {
+            "id": "e29",
+            "source": "adn",
+            "target": "dogma-central",
+            "label": "origen"
+        },
+        {
+            "id": "e30",
+            "source": "transcripcion",
+            "target": "arn-polimerasa",
+            "label": "catalizada por"
+        },
+        {
+            "id": "e31",
+            "source": "transcripcion",
+            "target": "arnm",
+            "label": "produce"
+        },
+        {
+            "id": "e32",
+            "source": "gen",
+            "target": "transcripcion",
+            "label": "se expresa por"
+        },
+        {
+            "id": "e33",
+            "source": "eucariota",
+            "target": "exon",
+            "label": "genes contienen"
+        },
+        {
+            "id": "e34",
+            "source": "eucariota",
+            "target": "intron",
+            "label": "genes contienen"
+        },
+        {
+            "id": "e35",
+            "source": "arnm",
+            "target": "splicing",
+            "label": "procesado por"
+        },
+        {
+            "id": "e36",
+            "source": "splicing",
+            "target": "exon",
+            "label": "une"
+        },
+        {
+            "id": "e37",
+            "source": "splicing",
+            "target": "intron",
+            "label": "elimina"
+        },
+        {
+            "id": "e38",
+            "source": "arnm",
+            "target": "traduccion",
+            "label": "leído en"
+        },
+        {
+            "id": "e39",
+            "source": "traduccion",
+            "target": "ribosoma",
+            "label": "ocurre en"
+        },
+        {
+            "id": "e40",
+            "source": "traduccion",
+            "target": "proteina",
+            "label": "produce"
+        },
+        {
+            "id": "e41",
+            "source": "arnm",
+            "target": "codon",
+            "label": "compuesto por"
+        },
+        {
+            "id": "e42",
+            "source": "codon",
+            "target": "codigo-genetico",
+            "label": "definido por"
+        },
+        {
+            "id": "e43",
+            "source": "codigo-genetico",
+            "target": "degeneracion",
+            "label": "propiedad"
+        },
+        {
+            "id": "e44",
+            "source": "codon",
+            "target": "codon-inicio",
+            "label": "tipo"
+        },
+        {
+            "id": "e45",
+            "source": "codon",
+            "target": "codon-stop",
+            "label": "tipo"
+        },
+        {
+            "id": "e46",
+            "source": "arnt",
+            "target": "anticodon",
+            "label": "posee"
+        },
+        {
+            "id": "e47",
+            "source": "arnt",
+            "target": "aminoacido",
+            "label": "transporta"
+        },
+        {
+            "id": "e48",
+            "source": "aminoacido",
+            "target": "polipeptido",
+            "label": "forma"
+        },
+        {
+            "id": "e49",
+            "source": "polipeptido",
+            "target": "proteina",
+            "label": "se pliega en"
+        },
+        {
+            "id": "e50",
+            "source": "ribosoma",
+            "target": "arnt",
+            "label": "interactúa con"
+        },
+        {
+            "id": "e51",
+            "source": "pcr",
+            "target": "cebador",
+            "label": "requiere"
+        },
+        {
+            "id": "e52",
+            "source": "pcr",
+            "target": "desnaturalizacion",
+            "label": "paso 1"
+        },
+        {
+            "id": "e53",
+            "source": "pcr",
+            "target": "alineamiento-pcr",
+            "label": "paso 2"
+        },
+        {
+            "id": "e54",
+            "source": "pcr",
+            "target": "extension",
+            "label": "paso 3"
+        },
+        {
+            "id": "e55",
+            "source": "pcr",
+            "target": "adn",
+            "label": "amplifica"
+        },
+        {
+            "id": "e56",
+            "source": "clonacion",
+            "target": "vector",
+            "label": "usa"
+        },
+        {
+            "id": "e57",
+            "source": "clonacion",
+            "target": "biblioteca",
+            "label": "genera"
+        },
+        {
+            "id": "e58",
+            "source": "enzima-restriccion",
+            "target": "sitio-reconocimiento",
+            "label": "reconoce"
+        },
+        {
+            "id": "e59",
+            "source": "enzima-restriccion",
+            "target": "extremos-romos",
+            "label": "genera"
+        },
+        {
+            "id": "e60",
+            "source": "enzima-restriccion",
+            "target": "extremos-pegajosos",
+            "label": "genera"
+        },
+        {
+            "id": "e61",
+            "source": "extremos-pegajosos",
+            "target": "hibridacion",
+            "label": "facilita"
+        },
+        {
+            "id": "e62",
+            "source": "hibridacion",
+            "target": "complementariedad",
+            "label": "basada en"
+        },
+        {
+            "id": "e63",
+            "source": "ligacion",
+            "target": "clonacion",
+            "label": "usada en"
+        },
+        {
+            "id": "e64",
+            "source": "electroforesis",
+            "target": "adn",
+            "label": "separa"
+        },
+        {
+            "id": "e65",
+            "source": "sonda",
+            "target": "hibridacion",
+            "label": "usa"
+        },
+        {
+            "id": "e66",
+            "source": "microarreglo",
+            "target": "sonda",
+            "label": "contiene"
+        },
+        {
+            "id": "e67",
+            "source": "microarreglo",
+            "target": "arnm",
+            "label": "mide expresión"
+        },
+        {
+            "id": "e68",
+            "source": "enzima-restriccion",
+            "target": "adn",
+            "label": "corta"
+        },
+        {
+            "id": "e69",
+            "source": "clonacion",
+            "target": "adn",
+            "label": "clona"
+        },
+        {
+            "id": "e70",
+            "source": "mutacion",
+            "target": "variacion-genetica",
+            "label": "genera"
+        },
+        {
+            "id": "e71",
+            "source": "variacion-genetica",
+            "target": "genoma-referencia",
+            "label": "comparada con"
+        },
+        {
+            "id": "e72",
+            "source": "variacion-genetica",
+            "target": "evolucion-proc",
+            "label": "base de"
+        },
+        {
+            "id": "e73",
+            "source": "evolucion-proc",
+            "target": "seleccion-natural",
+            "label": "mecanismo"
+        },
+        {
+            "id": "e74",
+            "source": "seleccion-natural",
+            "target": "adaptacion",
+            "label": "produce"
+        },
+        {
+            "id": "e75",
+            "source": "evolucion-proc",
+            "target": "especiacion",
+            "label": "resultado"
+        },
+        {
+            "id": "e76",
+            "source": "conservacion-genetica",
+            "target": "evolucion-proc",
+            "label": "evidencia de"
+        },
+        {
+            "id": "e77",
+            "source": "bioinformatica-disc",
+            "target": "genomica-comparativa",
+            "label": "incluye"
+        },
+        {
+            "id": "e78",
+            "source": "bioinformatica-disc",
+            "target": "alineamiento-secuencias",
+            "label": "usa"
+        },
+        {
+            "id": "e79",
+            "source": "bioinformatica-disc",
+            "target": "blast",
+            "label": "herramienta"
+        },
+        {
+            "id": "e80",
+            "source": "alineamiento-secuencias",
+            "target": "blast",
+            "label": "implementado por"
+        },
+        {
+            "id": "e81",
+            "source": "genomica-comparativa",
+            "target": "conservacion-genetica",
+            "label": "identifica"
+        },
+        {
+            "id": "e82",
+            "source": "bioinformatica-disc",
+            "target": "alfabeto-molecular",
+            "label": "analiza"
+        }
+    ],
+    "layout": "hierarchical"
+}
