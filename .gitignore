@@ -26,3 +26,5 @@ dist/
 .vscode/
 .idea/
 .trae/
+*.pem
+*.zip

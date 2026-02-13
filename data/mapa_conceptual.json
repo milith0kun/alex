@@ -49,88 +49,88 @@
             "title": "Célula",
             "summary": "Unidad básica de vida que permite metabolismo, replicación y respuesta al entorno.",
             "categoryId": "fundamentos",
+            "memoryHint": "Imagina la célula como una ciudad completa.",
             "position": {
-                "x": 461.9728489483207,
-                "y": -46.342282444912755
-            },
-            "memoryHint": "Imagina la célula como una ciudad completa."
+                "x": 622.7224805571368,
+                "y": 32.16335159660214
+            }
         },
         {
             "id": "teoria-celular",
             "title": "Teoría Celular",
             "summary": "Los organismos están formados por células, la unidad fundamental de vida.",
             "categoryId": "fundamentos",
+            "memoryHint": "La ley que dice que todas las ciudades están hechas de células.",
             "position": {
                 "x": 47.01578124620098,
                 "y": 323.50132496163167
-            },
-            "memoryHint": "La ley que dice que todas las ciudades están hechas de células."
+            }
         },
         {
             "id": "ciclo-vida",
             "title": "Ciclo de Vida Celular",
             "summary": "Secuencia de crecimiento, replicación/división y muerte regulada bioquímicamente.",
             "categoryId": "fundamentos",
+            "memoryHint": "El ciclo de crecimiento y división de la ciudad.",
             "position": {
                 "x": 301.1708835540976,
                 "y": 321.67750670676895
-            },
-            "memoryHint": "El ciclo de crecimiento y división de la ciudad."
+            }
         },
         {
             "id": "via-metabolica",
             "title": "Vía Metabólica / Pathway",
-            "summary": "Red de reacciones químicas catalizadas que coordinan procesos celulares.",
+            "summary": "Red de reacciones químicas catalizadas que coordinan procesos celulares.\nSin vías metabólicas:\n\nNo habría energía.\nNo se fabricarían proteínas.\nNo existiría crecimiento celular.",
             "categoryId": "fundamentos",
+            "memoryHint": "Las carreteras y fábricas que producen energía.",
             "position": {
                 "x": 540.8943770074815,
                 "y": 324.7189981743806
-            },
-            "memoryHint": "Las carreteras y fábricas que producen energía."
+            }
         },
         {
             "id": "eucariota",
             "title": "Célula Eucariota",
             "summary": "Célula con núcleo; genes con exones e intrones y procesamiento de ARN.",
             "categoryId": "fundamentos",
+            "memoryHint": "Ciudad con edificio central (núcleo, tipo capital moderna).",
             "position": {
-                "x": 672.4768110560807,
-                "y": 1021.4113801505071
-            },
-            "memoryHint": "Ciudad con edificio central (núcleo, tipo capital moderna)."
+                "x": 350.97754783844823,
+                "y": 462.5260330454365
+            }
         },
         {
             "id": "procariota",
             "title": "Célula Procariota",
             "summary": "Célula sin núcleo; genes continuos; transcripción y traducción en el mismo compartimento.",
             "categoryId": "fundamentos",
+            "memoryHint": "Ciudad pequeña sin edificio central.",
             "position": {
                 "x": 814.5195555384397,
                 "y": 328.4529656720262
-            },
-            "memoryHint": "Ciudad pequeña sin edificio central."
+            }
         },
         {
             "id": "proteina",
             "title": "Proteína",
             "summary": "Macromolécula de aminoácidos que ejecuta funciones celulares: catálisis, estructura, señalización.",
             "categoryId": "fundamentos",
+            "memoryHint": "Máquina final ensamblada (los trabajadores de la ciudad).",
             "position": {
-                "x": 2658.1989392997302,
-                "y": 1726.6200681714618
-            },
-            "memoryHint": "Máquina final ensamblada (los trabajadores de la ciudad)."
+                "x": 729.1374632288945,
+                "y": 560.9999539443363
+            }
         },
         {
             "id": "adn",
             "title": "ADN",
             "summary": "Polímero de nucleótidos (A, T, G, C) bicatenario y estable; almacena información hereditaria.",
             "categoryId": "material-genetico",
+            "memoryHint": "La gran biblioteca de la ciudad. Contiene planos y reglas.",
             "position": {
                 "x": 1664.5784495477035,
                 "y": 101.5755193059143
-            },
-            "memoryHint": "La gran biblioteca de la ciudad. Contiene planos y reglas."
+            }
         },
         {
             "id": "arn",
@@ -147,132 +147,132 @@
             "title": "Cromosoma",
             "summary": "Estructura que empaqueta ADN y proteínas; contiene genes.",
             "categoryId": "material-genetico",
+            "memoryHint": "Un estante grande donde se organizan los libros.",
             "position": {
                 "x": 3285.155729223977,
                 "y": 466.6545590588859
-            },
-            "memoryHint": "Un estante grande donde se organizan los libros."
+            }
         },
         {
             "id": "gen",
             "title": "Gen",
             "summary": "Segmento de ADN con información para producir un producto funcional (ARN o proteína).",
             "categoryId": "material-genetico",
+            "memoryHint": "Un libro específico con instrucciones para construir algo.",
             "position": {
                 "x": 1949.6775264941982,
                 "y": 607.6093745758235
-            },
-            "memoryHint": "Un libro específico con instrucciones para construir algo."
+            }
         },
         {
             "id": "nucleotido",
             "title": "Nucleótido",
             "summary": "Unidad básica de ADN/ARN: base nitrogenada + azúcar + grupo fosfato.",
             "categoryId": "material-genetico",
+            "memoryHint": "Las letras con las que están escritos los libros.",
             "position": {
-                "x": 1081.0647996744412,
-                "y": 466.355060170095
-            },
-            "memoryHint": "Las letras con las que están escritos los libros."
+                "x": 1321.2693736160338,
+                "y": 443.5841005635617
+            }
         },
         {
             "id": "bases-nitrogenadas",
             "title": "Bases Nitrogenadas",
             "summary": "A (adenina), T (timina/ADN), U (uracilo/ARN), G (guanina), C (citosina).",
             "categoryId": "material-genetico",
+            "memoryHint": "Las letras del alfabeto (A, T, C, G).",
             "position": {
                 "x": 1091.981955394641,
                 "y": 600.7153092175179
-            },
-            "memoryHint": "Las letras del alfabeto (A, T, C, G)."
+            }
         },
         {
             "id": "doble-helice",
             "title": "Doble Hélice",
             "summary": "Estructura del ADN: dos hebras antiparalelas unidas por puentes de hidrógeno.",
             "categoryId": "material-genetico",
+            "memoryHint": "El formato en que están encuadernados los libros.",
             "position": {
                 "x": 2106.2142940968147,
                 "y": 461.5544122955059
-            },
-            "memoryHint": "El formato en que están encuadernados los libros."
+            }
         },
         {
             "id": "complementariedad",
             "title": "Complementariedad de Bases",
             "summary": "Emparejamiento específico A–T (A–U en ARN) y C–G; clave para replicación.",
             "categoryId": "material-genetico",
+            "memoryHint": "Regla de lectura: A con T, C con G.",
             "position": {
                 "x": 2536.224525103514,
                 "y": 600.2399601541414
-            },
-            "memoryHint": "Regla de lectura: A con T, C con G."
+            }
         },
         {
             "id": "chargaff",
             "title": "Regla de Chargaff",
             "summary": "En ADN bicatenario, la cantidad de A≈T y G≈C.",
             "categoryId": "material-genetico",
+            "memoryHint": "Estadística que confirma esa regla.",
             "position": {
                 "x": 2272.2593297855624,
                 "y": 747.4511577152093
-            },
-            "memoryHint": "Estadística que confirma esa regla."
+            }
         },
         {
             "id": "replicacion",
             "title": "Replicación del ADN",
             "summary": "Copia del ADN donde cada hebra sirve como molde para sintetizar su complementaria.",
             "categoryId": "material-genetico",
+            "memoryHint": "Fotocopiadora gigante que duplica toda la biblioteca.",
             "position": {
                 "x": 2461.6327123602914,
                 "y": 461.0851189510247
-            },
-            "memoryHint": "Fotocopiadora gigante que duplica toda la biblioteca."
+            }
         },
         {
             "id": "herencia-mendeliana",
             "title": "Herencia Mendeliana",
             "summary": "Transmisión de rasgos mediante genes que segregan y se combinan en la descendencia.",
             "categoryId": "material-genetico",
+            "memoryHint": "Cómo los libros se pasan a la ciudad hija.",
             "position": {
                 "x": 1614.3433760826267,
                 "y": 744.6990821863563
-            },
-            "memoryHint": "Cómo los libros se pasan a la ciudad hija."
+            }
         },
         {
             "id": "mutacion",
             "title": "Mutación",
             "summary": "Cambio en la secuencia de ADN que puede alterar un rasgo o función biológica.",
             "categoryId": "material-genetico",
+            "memoryHint": "Error de imprenta en un libro.",
             "position": {
-                "x": 2751.4328754833086,
-                "y": 1864.751643664145
-            },
-            "memoryHint": "Error de imprenta en un libro."
+                "x": 1748.0288350669587,
+                "y": 902.9560642538956
+            }
         },
         {
             "id": "ligamiento",
             "title": "Ligamiento Genético",
             "summary": "Genes cercanos en un cromosoma tienden a heredarse juntos.",
             "categoryId": "material-genetico",
+            "memoryHint": "Libros que están pegados en el mismo estante.",
             "position": {
                 "x": 3321.9979147557287,
                 "y": 609.0976251166514
-            },
-            "memoryHint": "Libros que están pegados en el mismo estante."
+            }
         },
         {
             "id": "mapa-genetico",
             "title": "Mapa Genético",
             "summary": "Ordenamiento relativo de genes estimado por frecuencias de recombinación.",
             "categoryId": "material-genetico",
+            "memoryHint": "El mapa de la biblioteca central.",
             "position": {
                 "x": 2959.693184721467,
                 "y": 617.9345691474136
-            },
-            "memoryHint": "El mapa de la biblioteca central."
+            }
         },
         {
             "id": "un-gen-una-proteina",
@@ -289,319 +289,319 @@
             "title": "Alfabeto Molecular",
             "summary": "Representación de macromoléculas como cadenas de letras (4 para ADN/ARN, 20 para proteínas).",
             "categoryId": "material-genetico",
+            "memoryHint": "El idioma en que están escritos todos los libros.",
             "position": {
-                "x": 2496.788458240709,
-                "y": 1869.6243280275874
-            },
-            "memoryHint": "El idioma en que están escritos todos los libros."
+                "x": 1362.1577331128112,
+                "y": 951.0375350467506
+            }
         },
         {
             "id": "dogma-central",
             "title": "Dogma Central",
             "summary": "Flujo principal de información genética: ADN → ARN → Proteína.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "Flujo de información: Biblioteca → Copia → Fábrica.",
             "position": {
                 "x": 4166.684194457418,
                 "y": 600.5130033617277
-            },
-            "memoryHint": "Flujo de información: Biblioteca → Copia → Fábrica."
+            }
         },
         {
             "id": "transcripcion",
             "title": "Transcripción",
             "summary": "Síntesis de ARN a partir de un molde de ADN; copia información de un gen.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "Sacar una copia de un libro.",
             "position": {
                 "x": 3188.9905864119623,
                 "y": 749.6788361066119
-            },
-            "memoryHint": "Sacar una copia de un libro."
+            }
         },
         {
             "id": "arn-polimerasa",
             "title": "ARN Polimerasa",
             "summary": "Enzima que cataliza la transcripción agregando ribonucleótidos complementarios.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "El copista de la biblioteca.",
             "position": {
                 "x": 2388.7288055700337,
                 "y": 882.0299596320201
-            },
-            "memoryHint": "El copista de la biblioteca."
+            }
         },
         {
             "id": "arnm",
             "title": "ARN Mensajero (ARNm)",
             "summary": "ARN que porta la información codificante de un gen hacia el ribosoma.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "La copia portátil del libro.",
             "position": {
                 "x": 3856.481857364321,
                 "y": 880.6536770472003
-            },
-            "memoryHint": "La copia portátil del libro."
+            }
         },
         {
             "id": "exon",
             "title": "Exón",
             "summary": "Segmento de gen eucariota que permanece en el ARNm maduro y codifica.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "Las partes útiles del libro.",
             "position": {
                 "x": 1086.111354714208,
                 "y": 1163.4299114660503
-            },
-            "memoryHint": "Las partes útiles del libro."
+            }
         },
         {
             "id": "intron",
             "title": "Intrón",
             "summary": "Segmento interveniente eliminado durante el splicing.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "Las partes que se eliminan.",
             "position": {
                 "x": 1609.6138503233733,
                 "y": 1167.53852135807
-            },
-            "memoryHint": "Las partes que se eliminan."
+            }
         },
         {
             "id": "splicing",
             "title": "Splicing (Empalme)",
             "summary": "Eliminación de intrones y unión de exones para generar ARNm funcional.",
             "categoryId": "flujo-informacion",
+            "memoryHint": "El editor que corta lo innecesario.",
             "position": {
                 "x": 3726.2898060938014,
                 "y": 1027.3554191023527
-            },
-            "memoryHint": "El editor que corta lo innecesario."
+            }
         },
         {
             "id": "traduccion",
             "title": "Traducción",
             "summary": "El ribosoma lee codones del ARNm y ensambla una proteína.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Proceso de fabricación de máquinas.",
             "position": {
                 "x": 4038.8540842041216,
                 "y": 1029.4218435985945
-            },
-            "memoryHint": "Proceso de fabricación de máquinas."
+            }
         },
         {
             "id": "ribosoma",
             "title": "Ribosoma",
             "summary": "Complejo de ARN + proteínas que cataliza la traducción.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "La fábrica central de la ciudad.",
             "position": {
                 "x": 3968.984478502316,
                 "y": 1161.8644382377727
-            },
-            "memoryHint": "La fábrica central de la ciudad."
+            }
         },
         {
             "id": "aminoacido",
             "title": "Aminoácido",
             "summary": "Monómero de proteínas; 20 tipos estándar.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Pieza individual de construcción.",
             "position": {
                 "x": 4089.6200697867216,
                 "y": 1449.099321173274
-            },
-            "memoryHint": "Pieza individual de construcción."
+            }
         },
         {
             "id": "polipeptido",
             "title": "Polipéptido",
             "summary": "Cadena lineal de aminoácidos; se pliega en proteína funcional.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Cadena de piezas ensambladas.",
             "position": {
                 "x": 4095.7791738254614,
                 "y": 1589.4052296353054
-            },
-            "memoryHint": "Cadena de piezas ensambladas."
+            }
         },
         {
             "id": "codon",
             "title": "Codón",
             "summary": "Triplete de nucleótidos en ARNm que especifica un aminoácido.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Instrucción de 3 letras en el manual.",
             "position": {
                 "x": 4619.716543013924,
                 "y": 1024.0357766038487
-            },
-            "memoryHint": "Instrucción de 3 letras en el manual."
+            }
         },
         {
             "id": "codigo-genetico",
             "title": "Código Genético",
             "summary": "Correspondencia entre codones y aminoácidos.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Diccionario que traduce letras a piezas.",
             "position": {
                 "x": 4359.941926458165,
                 "y": 1169.9600799414966
-            },
-            "memoryHint": "Diccionario que traduce letras a piezas."
+            }
         },
         {
             "id": "degeneracion",
             "title": "Degeneración del Código",
             "summary": "Múltiples codones pueden codificar el mismo aminoácido.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Diferentes palabras que significan lo mismo.",
             "position": {
                 "x": 4360.421478086322,
                 "y": 1308.224286724456
-            },
-            "memoryHint": "Diferentes palabras que significan lo mismo."
+            }
         },
         {
             "id": "codon-inicio",
             "title": "Codón de Inicio",
             "summary": "AUG (Metionina): señal que inicia la traducción.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Señal de “empezar producción”.",
             "position": {
                 "x": 4619.661174544374,
                 "y": 1168.6083211960456
-            },
-            "memoryHint": "Señal de “empezar producción”."
+            }
         },
         {
             "id": "codon-stop",
             "title": "Codón de Terminación",
             "summary": "UAA, UAG o UGA: señal que detiene la traducción.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Señal de “terminar producción”.",
             "position": {
                 "x": 4870.6402294061645,
                 "y": 1162.5407215805114
-            },
-            "memoryHint": "Señal de “terminar producción”."
+            }
         },
         {
             "id": "arnt",
             "title": "ARNt (Transferencia)",
             "summary": "ARN adaptador que transporta aminoácidos y reconoce codones.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Camión que trae piezas a la fábrica.",
             "position": {
                 "x": 3979.2303823019283,
                 "y": 1300.6143795496287
-            },
-            "memoryHint": "Camión que trae piezas a la fábrica."
+            }
         },
         {
             "id": "anticodon",
             "title": "Anticodón",
             "summary": "Triplete en ARNt complementario al codón del ARNm.",
             "categoryId": "traduccion-proteinas",
+            "memoryHint": "Código del camión que coincide con la orden.",
             "position": {
                 "x": 3843.601131218994,
                 "y": 1444.4721880527263
-            },
-            "memoryHint": "Código del camión que coincide con la orden."
+            }
         },
         {
             "id": "pcr",
             "title": "PCR",
             "summary": "Amplificación exponencial de un fragmento de ADN mediante ciclos térmicos.",
             "categoryId": "tecnicas",
+            "memoryHint": "Máquina de hacer miles de copias de un libro.",
             "position": {
-                "x": 1779.1361470486722,
-                "y": 13.35706832363725
-            },
-            "memoryHint": "Máquina de hacer miles de copias de un libro."
+                "x": 2556.583458238259,
+                "y": -74.91734081375967
+            }
         },
         {
             "id": "cebador",
             "title": "Cebador / Primer",
             "summary": "Oligonucleótido corto que se aparea con el molde e inicia la síntesis.",
             "categoryId": "tecnicas",
+            "memoryHint": "Marcador que indica qué copiar.",
             "position": {
-                "x": 1408.8463174355338,
-                "y": 327.17228978084296
-            },
-            "memoryHint": "Marcador que indica qué copiar."
+                "x": 1529.5129841022003,
+                "y": -48.1610435524904
+            }
         },
         {
             "id": "desnaturalizacion",
             "title": "Desnaturalización (PCR)",
             "summary": "Separación de hebras de ADN por calentamiento.",
             "categoryId": "tecnicas",
+            "memoryHint": "Abrir el libro para leerlo.",
             "position": {
-                "x": 1653.7233634108798,
-                "y": 324.14628307308953
-            },
-            "memoryHint": "Abrir el libro para leerlo."
+                "x": 1785.3963711900512,
+                "y": 11.545345669169578
+            }
         },
         {
             "id": "alineamiento-pcr",
             "title": "Alineamiento (PCR)",
             "summary": "Unión de cebadores a secuencias complementarias al enfriar.",
             "categoryId": "tecnicas",
+            "memoryHint": "Colocar el marcador.",
             "position": {
                 "x": 1899.9955930622518,
                 "y": 324.3381339280768
-            },
-            "memoryHint": "Colocar el marcador."
+            }
         },
         {
             "id": "extension",
             "title": "Extensión (PCR)",
             "summary": "Síntesis de nuevas hebras por ADN polimerasa desde cebadores.",
             "categoryId": "tecnicas",
+            "memoryHint": "Copiar el contenido del libro.",
             "position": {
                 "x": 2153.811945960786,
                 "y": 320.1516185795766
-            },
-            "memoryHint": "Copiar el contenido del libro."
+            }
         },
         {
             "id": "clonacion",
             "title": "Clonación Molecular",
             "summary": "Inserción de ADN en un vector replicable para producir copias.",
             "categoryId": "tecnicas",
+            "memoryHint": "Hacer copias permanentes de un libro.",
             "position": {
                 "x": 3109.6400787558564,
                 "y": 181.21480424303306
-            },
-            "memoryHint": "Hacer copias permanentes de un libro."
+            }
         },
         {
             "id": "vector",
             "title": "Vector de Clonación",
             "summary": "Molécula de ADN (plásmido/virus) que replica y transporta un inserto.",
             "categoryId": "tecnicas",
+            "memoryHint": "Camión que transporta el libro al laboratorio.",
             "position": {
                 "x": 2400.1164474115094,
                 "y": 322.9858147461235
-            },
-            "memoryHint": "Camión que transporta el libro al laboratorio."
+            }
         },
         {
             "id": "biblioteca",
             "title": "Biblioteca de Clones",
             "summary": "Colección de clones representando fragmentos de un genoma.",
             "categoryId": "tecnicas",
+            "memoryHint": "Archivo lleno de copias.",
             "position": {
                 "x": 2657.0059854507736,
                 "y": 323.13065385217453
-            },
-            "memoryHint": "Archivo lleno de copias."
+            }
         },
         {
             "id": "enzima-restriccion",
             "title": "Enzima de Restricción",
             "summary": "Proteína que corta ADN en secuencias específicas.",
             "categoryId": "tecnicas",
+            "memoryHint": "Tijeras especiales para libros.",
             "position": {
                 "x": 4167.287089374218,
                 "y": 183.65287579100217
-            },
-            "memoryHint": "Tijeras especiales para libros."
+            }
         },
         {
             "id": "sitio-reconocimiento",
             "title": "Sitio de Reconocimiento",
             "summary": "Secuencia palindrómica donde la enzima se une y corta.",
             "categoryId": "tecnicas",
+            "memoryHint": "Lugar exacto donde cortar el libro.",
             "position": {
                 "x": 3789.929014429745,
                 "y": 323.5498222918651
-            },
-            "memoryHint": "Lugar exacto donde cortar el libro."
+            }
         },
         {
             "id": "extremos-romos",
@@ -618,11 +618,11 @@
             "title": "Extremos Pegajosos",
             "summary": "Extremos con salientes complementarios que facilitan unión.",
             "categoryId": "tecnicas",
+            "memoryHint": "Bordes que encajan perfectamente.",
             "position": {
                 "x": 4288.5291959459655,
                 "y": 325.3961329765101
-            },
-            "memoryHint": "Bordes que encajan perfectamente."
+            }
         },
         {
             "id": "hibridacion",
@@ -639,77 +639,77 @@
             "title": "Ligación",
             "summary": "Formación de enlaces covalentes para unir fragmentos de ADN.",
             "categoryId": "tecnicas",
+            "memoryHint": "Pegamento molecular para planos.",
             "position": {
                 "x": 3112.8779127214384,
                 "y": 49.460937804734044
-            },
-            "memoryHint": "Pegamento molecular para planos."
+            }
         },
         {
             "id": "electroforesis",
             "title": "Electroforesis en Gel",
             "summary": "Separación de fragmentos de ADN por tamaño en gel.",
             "categoryId": "tecnicas",
+            "memoryHint": "Separador de fragmentos por tamaño.",
             "position": {
                 "x": 4437.63982765407,
                 "y": 189.08847795744148
-            },
-            "memoryHint": "Separador de fragmentos por tamaño."
+            }
         },
         {
             "id": "sonda",
             "title": "Sonda (Probe)",
             "summary": "Oligonucleótido marcado que detecta secuencia complementaria.",
             "categoryId": "tecnicas",
+            "memoryHint": "Detector que busca una frase específica.",
             "position": {
                 "x": 4584.61693748616,
                 "y": 321.58319917003604
-            },
-            "memoryHint": "Detector que busca una frase específica."
+            }
         },
         {
             "id": "microarreglo",
             "title": "Microarreglo / DNA Array",
             "summary": "Superficie con sondas para detectar expresión génica.",
             "categoryId": "tecnicas",
+            "memoryHint": "Panel gigante que revisa muchos genes a la vez.",
             "position": {
                 "x": 4700.78598882313,
                 "y": 189.4125988843495
-            },
-            "memoryHint": "Panel gigante que revisa muchos genes a la vez."
+            }
         },
         {
             "id": "variacion-genetica",
             "title": "Variación Genética",
             "summary": "Diferencias de secuencia entre individuos que sustentan diversidad.",
             "categoryId": "evolucion",
+            "memoryHint": "Diferencias entre distintas ciudades.",
             "position": {
                 "x": 2746.0192834433415,
                 "y": 2001.730265193232
-            },
-            "memoryHint": "Diferencias entre distintas ciudades."
+            }
         },
         {
             "id": "genoma-referencia",
             "title": "Genoma de Referencia",
             "summary": "Secuencia representativa usada como patrón para una especie.",
             "categoryId": "evolucion",
+            "memoryHint": "Ciudad modelo para comparar.",
             "position": {
                 "x": 1132.3786580978895,
                 "y": 2149.92435777249
-            },
-            "memoryHint": "Ciudad modelo para comparar."
+            }
         },
         {
             "id": "conservacion-genetica",
             "title": "Conservación Genética",
             "summary": "Genes similares entre especies indican origen común.",
             "categoryId": "evolucion",
+            "memoryHint": "Ciudades que comparten planos antiguos.",
             "position": {
                 "x": 1237.982406084666,
                 "y": 2000.2354307315607
-            },
-            "memoryHint": "Ciudades que comparten planos antiguos."
+            }
         },
         {
             "id": "evolucion-proc",
@@ -726,66 +726,66 @@
             "title": "Selección Natural",
             "summary": "Variantes que mejoran éxito reproductivo aumentan su frecuencia.",
             "categoryId": "evolucion",
+            "memoryHint": "Solo sobreviven las mejores ciudades.",
             "position": {
                 "x": 2482.4947840156733,
                 "y": 2286.5096445936315
-            },
-            "memoryHint": "Solo sobreviven las mejores ciudades."
+            }
         },
         {
             "id": "adaptacion",
             "title": "Adaptación",
             "summary": "Incremento de rasgos heredables que mejoran ajuste al ambiente.",
             "categoryId": "evolucion",
+            "memoryHint": "Mejoras útiles para la ciudad.",
             "position": {
                 "x": 2487.410040441573,
                 "y": 2428.4740081103123
-            },
-            "memoryHint": "Mejoras útiles para la ciudad."
+            }
         },
         {
             "id": "especiacion",
             "title": "Especiación",
             "summary": "Formación de nuevas especies cuando poblaciones divergen.",
             "categoryId": "evolucion",
+            "memoryHint": "Se forma una nueva ciudad distinta.",
             "position": {
                 "x": 2733.254268036733,
                 "y": 2282.0381652894
-            },
-            "memoryHint": "Se forma una nueva ciudad distinta."
+            }
         },
         {
             "id": "genomica-comparativa",
             "title": "Genómica Comparativa",
             "summary": "Comparación de genomas para identificar similitudes y relaciones evolutivas.",
             "categoryId": "bioinformatica",
+            "memoryHint": "Comparar planos entre ciudades.",
             "position": {
                 "x": 1246.6044991523995,
                 "y": 1861.7744427542789
-            },
-            "memoryHint": "Comparar planos entre ciudades."
+            }
         },
         {
             "id": "alineamiento-secuencias",
             "title": "Alineamiento de Secuencias",
             "summary": "Método computacional para comparar secuencias y localizar homologías.",
             "categoryId": "bioinformatica",
+            "memoryHint": "Superponer libros para ver diferencias.",
             "position": {
                 "x": 1484.3852727890626,
                 "y": 1863.702396593379
-            },
-            "memoryHint": "Superponer libros para ver diferencias."
+            }
         },
         {
             "id": "blast",
             "title": "BLAST",
             "summary": "Algoritmos rápidos para buscar similitudes entre secuencias.",
             "categoryId": "bioinformatica",
+            "memoryHint": "Buscador rápido de coincidencias en libros.",
             "position": {
                 "x": 1552.8815727565336,
                 "y": 2004.217985751022
-            },
-            "memoryHint": "Buscador rápido de coincidencias en libros."
+            }
         },
         {
             "id": "bioinformatica-disc",
